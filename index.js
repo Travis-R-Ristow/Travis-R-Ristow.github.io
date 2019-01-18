@@ -26,7 +26,7 @@ $(document).ready(function(){
 	}).mouseleave(function(){
 	    // console.log('Hide!');
 	    	$('.html .popUp').css('display', 'none');
-	    	$(".html .cir").delay( 3100 ).queue(function (next) { 
+	    	$(".html .cir").delay( 3000 ).queue(function (next) { 
 										   $(this).css("animation","none"); 
 										   next(); 
 										 });
@@ -43,7 +43,7 @@ $(document).ready(function(){
 	}).mouseleave(function(){
 	    // console.log('Hide!');
     	$('.ruby .popUp').css('display', 'none');
-    	$(".ruby .cir").delay( 3100 ).queue(function (next) { 
+    	$(".ruby .cir").delay( 3000 ).queue(function (next) { 
 									   $(this).css("animation","none"); 
 									   next(); 
 									 });
@@ -59,7 +59,7 @@ $(document).ready(function(){
 	}).mouseleave(function(){
 	    // console.log('Hide!');
     	$('.js .popUp').css('display', 'none');
-    	$(".js .cir").delay( 3100 ).queue(function (next) { 
+    	$(".js .cir").delay( 3000 ).queue(function (next) { 
 									   $(this).css("animation","none"); 
 									   next(); 
 									 });
@@ -75,7 +75,7 @@ $(document).ready(function(){
 	}).mouseleave(function(){
 	    // console.log('Hide!');
     	$('.java .popUp').css('display', 'none');
-    	$(".java .cir").delay( 3100 ).queue(function (next) { 
+    	$(".java .cir").delay( 3000 ).queue(function (next) { 
 									   $(this).css("animation","none"); 
 									   next(); 
 									 });
@@ -91,7 +91,7 @@ $(document).ready(function(){
 	}).mouseleave(function(){
 	    // console.log('Hide!');
 	    $('.py .popUp').css('display', 'none');
-	    $(".py .cir").delay( 3100 ).queue(function (next) { 
+	    $(".py .cir").delay( 3000 ).queue(function (next) { 
 									   $(this).css("animation","none"); 
 									   next(); 
 									 });
@@ -107,7 +107,7 @@ $(document).ready(function(){
 	}).mouseleave(function(){
 	    // console.log('Hide!');
     	$('.ps .popUp').css('display', 'none');
-    	$(".ps .cir").delay( 3100 ).queue(function (next) { 
+    	$(".ps .cir").delay( 3000 ).queue(function (next) { 
 									$(this).css("animation","none"); 
 									  next(); 
 									});
@@ -123,7 +123,7 @@ $(document).ready(function(){
 	}).mouseleave(function(){
 	    // console.log('Hide!');
     	$('.ui .popUp').css('display', 'none');
-    	$(".ui .cir").delay( 3100 ).queue(function (next) { 
+    	$(".ui .cir").delay( 3000 ).queue(function (next) { 
 									$(this).css("animation","none"); 
 									  next(); 
 									});
@@ -139,7 +139,7 @@ $(document).ready(function(){
 	}).mouseleave(function(){
 	    // console.log('Hide!');
     	$('.hw .popUp').css('display', 'none');
-    	$(".hw .cir").delay( 3100 ).queue(function (next) { 
+    	$(".hw .cir").delay( 3000 ).queue(function (next) { 
 									$(this).css("animation","none"); 
 									  next(); 
 									});
@@ -155,7 +155,7 @@ $(document).ready(function(){
 	}).mouseleave(function(){
 	    // console.log('Hide!');
     	$('.c .popUp').css('display', 'none');
-    	$(".c .cir").delay( 3100 ).queue(function (next) { 
+    	$(".c .cir").delay( 3000 ).queue(function (next) { 
 									$(this).css("animation","none"); 
 									  next(); 
 									});
@@ -171,7 +171,7 @@ $(document).ready(function(){
 	}).mouseleave(function(){
 	    // console.log('Hide!');
 	    $('.cc .popUp').css('display', 'none');
-	    $(".cc .cir").delay( 3100 ).queue(function (next) { 
+	    $(".cc .cir").delay( 3000 ).queue(function (next) { 
 									$(this).css("animation","none"); 
 									  next(); 
 									});

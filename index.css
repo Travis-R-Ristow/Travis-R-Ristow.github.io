@@ -69,7 +69,8 @@ body{
 		background-color: silver;
 		padding: 0.75vw;
 		border-radius: 1.5vw 1.5vw 0 0;
-		border-bottom: solid black 0.5vw
+		border-bottom: solid black 0.5vw;
+		color: black;
 	}
 
 	#fancyNav .bannerBoxes .gameBox {
@@ -79,10 +80,13 @@ body{
 	}
 
 	#fancyNav .bannerBoxes .gameBox p:hover {
-		opacity: 0;
-		/*background-color: rgba(255,255,255,0);*/
-		/*color: black;*/
+		/*opacity: 0;*/
+		color: black;
+		font-weight: bolder;
 		cursor: pointer;
+		/*mix-blend-mode: difference;*/
+		background-color: rgba(255,255,255,0);
+		text-shadow: 0 0 10px silver;
 	}
 
 	#fancyNav .bannerBoxes .gameBox p {
@@ -91,9 +95,10 @@ body{
 		padding-bottom: 3vh; 
 		font-size: 1.5vw;
 		color: white;
-		/*height: 10vh;*/
+		/*height: 5vh;*/
 		background-color: black;
 		opacity: 0.75;
+
 	}
 
 /*	SKILLS	*/
