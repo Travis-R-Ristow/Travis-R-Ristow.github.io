@@ -5,7 +5,7 @@ $(document).ready(function(){
 		$("#fancyNav").fadeIn(4500);
 		$("#bgShadow").fadeIn(4500);
 		$("#bg Travis").fadeTo(2000, 1);
-		$("#skills").animate({ marginTop: "-1vh"},5500, () => {
+		$("#skills").animate({ marginTop: "-1vh"},6500, () => {
 
 			// $(".html .cir, .java .cir, .py .cir, .ruby .cir, .js .cir, .ps .cir, .ui .cir, .hw .cir, .c .cir, .cc .cir").css(
 			// 	"animation","progress 3s ease-in-out forwards"
@@ -14,7 +14,7 @@ $(document).ready(function(){
 	});
 
 
-
+//	SKILLS 	\\
 {
 
 	$(".html, .html .popUp").mouseenter(function(){
@@ -176,7 +176,18 @@ $(document).ready(function(){
 									  next(); 
 									});
 	});	
-}
+}//skills
 
+$("#skills button").mouseenter(() => {
+		hue = 0;
+		button = setInterval(function() {
+			$("#skills button:hover").css( "box-shadow", "0 0 1vw hsl("+hue+", 100%, 50%)");
+			hue++;
+			if(hue > 350){hue = 0;}
+		},25);
+	}).mouseleave(() => {
+		clearInterval(button);
+		$("#skills button").css( "box-shadow", "0 0 1vw black");
+	});
 });
 

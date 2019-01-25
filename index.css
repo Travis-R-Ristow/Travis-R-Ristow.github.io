@@ -105,7 +105,7 @@ body{
 #skills {
 	border: solid black 0.3vw;
 	margin: auto;
-	margin-top: 55vh;
+	margin-top: 65vh;
 	width: 80%;
 	box-shadow: 0 0 10vw black;
 	background-color: var(--sub-color);
@@ -113,6 +113,16 @@ body{
 	padding-top: 3vh;
 	padding-bottom: 3vh;
 }
+	#skills button{
+		background-color: var(--main-color);
+		border: solid black 0.25vw;
+		border-radius: 7vw;
+		font-size: 1.5vw;
+	}
+	#skills button:hover {
+		/*background-color: #63882b;*/
+		box-shadow: 0 0 1vw; 
+	}
 
 #skills .gauge, .html, .java, .py, .ruby, .js, .ps, .ui, .hw, .c, .cc{
 	width: 15%;

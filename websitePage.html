@@ -4,18 +4,87 @@
 		<title>Websites - TRtheGreat</title>
 		<link rel="stylesheet" type="text/css" href="galleryPage.css">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+		<script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+		<script type="text/javascript" src="gallery.js"></script>
+		<script type="text/javascript" src="rainbow.js"></script>
 	</head>
 	<body>
 
 		<div id="navBar">
-			<a href="index.html"><h1>Home</h1></a>
+			<a href="index.html"><h1><span class="c1">Ho</span><span class="c2">me</span></h1></a>
 			<h1>Games</h1>
 			<h1>About Me</h1>
 		</div>
 
 		<div id="container">
 			<h1>Websites</h1>
-		</div>
 
+			<div class="box">
+				<h2>Built Sites</h2>
+				<img src="./pics/FHB.png" alt="Firehouse Bistro" id="fhb">
+				<img src="./pics/PP.PNG" alt="Perfect Paws" id="pp">
+				<!-- <img src="./pics/oldSite.PNG" alt="My Old Website"> -->
+				<img src="./pics/WBS.png" alt="Woodside Bike Shop" id="wbs">
+				<p>Click for more Information.</p>
+			</div>
+
+			<div class="box">
+				<h2>Personal Projects</h2>
+				<img src="./pics/spider.png" alt="Website Crawler" id="crawler">
+				<img src="./pics/pc.jpg" alt="PC Build" id="pc">
+				<!-- ILOVECARS.COM -->
+				<!-- FORZA AI -->
+				<!-- $$APP -->
+				<p>Click for more Information.</p>
+			</div>
+
+			<div class="box">
+				<h2>Contact Me</h2>
+				<form action="https://formspree.io/TRtheGreat19@gmail.com" method="POST">
+					<label>Your Name:</label>
+					<input type="text" name="name" placeholder="  Testy Bob"style="width:20%;">
+					<br>
+					<label>Your Email:</label>
+					<input type="email" name="_replyto" placeholder="  myEmail@email.com"style="width:25%;">
+					<br>
+					<label>Your Message:</label>
+					<textarea name="message" placeholder="  Hi, I have a Project for you!" style="width:50%;"></textarea>
+					<br>
+					<button type="submit">Send</button>
+				</form>
+			</div>
+
+		</div> <!-- CONAINER -->
+
+		<div class="popUp" id="FHB">
+			<img src="./pics/FHB.png" alt="Firehouse Bistro">
+			<p>    This was a site template I made back in high school for my Brother's old restaurant.</p>
+		</div>
+		<div class="popUp" id="PP">
+			<img src="./pics/PP.PNG" alt="Perfect Paws">
+			<img src="./pics/PP1.PNG" alt="Perfect Paws - Login">
+			<p>    I made this site for a dog trainer.  Users could make an account and buy tickets for events and training.  Admin was able to post events and charge users for training.  Check it out here <a href="https://perfect-paws.herokuapp.com/" target="_blank">Perfect Paws</a></p>
+		</div>
+		<div class="popUp" id="WBS">
+			<img src="./pics/WBS.png" alt="Woodside Bike Shop">
+			<p>    This is another site template I made for a bike shop I worked at and they Sponsored my Bike Race Team.  I made the background continuously slide to the right.  </p>
+		</div>
+		<div class="popUp" id="CRAWLER">
+			<img src="./pics/spider.png" alt="Website Crawler">
+			<p>    A company found a website with a ton of data: company numbers, websites, addresses, expertise.  They wanted me to pull all that to a spread sheet.  I basically made a web crawler to look for a Regex pattern then used Google sheet's to store the data pulled.  </p>
+		</div>
+		<div class="popUp" id="PC">
+			<img src="./pics/pc1.jpg" alt="PC Build">
+			<img src="./pics/pc.jpg" alt="PC Build">
+			<p>    This is my current PC build as of Jan 2019.  Built it to destroy any and every game in 4k highest settings.  Also its the best work station.</p>
+			<ul>
+				<li>CPU :: i7-8086K</li>
+				<li>GPU :: Quadro P1000</li>
+				<li>GPU :: STRIX RTX 2080-ti</li>
+				<li>MotherBoard :: ROG MaximusXCode</li>
+				<li>RAM :: 3000 13-17-17-35 (2 x 16GB)</li>
+				<li>Storage :: 3TB 7200 RPM SATA 6.0Gb/s (64MB Cache + 32GB Intel Optane)</li>
+			</ul>
+		</div>
 	</body>
 </html>
