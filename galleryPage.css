@@ -94,14 +94,13 @@ body{
 		border-radius: 1vw;
 		cursor: pointer;
 	}
-	.box p {
+	.box h3 {
 		margin:auto;
 		border-top:solid grey 0.1vw;
 		width:80%;
 		margin-bottom:1vh;
 		padding:0.5vh;
 	}
-
 	.box form {
 	}
 		.box form input, form textarea{
@@ -172,3 +171,21 @@ body{
   from {opacity: 0} 
   to {opacity: 1}
 }
+
+.game{
+	display: inline-block;
+	background-color: var(--sub-color);
+	border-radius: 3vw;
+	border: silver solid 0.3vw;
+	width: 25%;
+	margin:1vw; 
+	box-shadow: 0 0 10vh black;
+}
+
+.game img{
+	width: 75%;
+	margin-bottom: 0;
+}
+	.game p {
+		/*display: inline-block;*/
+	}

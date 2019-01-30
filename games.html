@@ -5,6 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="galleryPage.css">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
 		<script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+		<script type="text/javascript" src="gallery.js"></script>
 		<script type="text/javascript" src="rainbow.js"></script>
 
 	</head>
@@ -20,13 +21,56 @@
 
 			<div class="box">
 				<h2>Have Fun</h2>
-				<img src="./pics/rickandMorty.PNG" alt="Rick Runner" id="rr">
-				<img src="./pics/balloonClicker.PNG" alt="Balloon Clicker" id="bc">
-				<img src="./pics/brickBreaker.PNG" alt="Brick Brealer" id="bb">
-				<img src="./pics/spaceInvaders.PNG" alt="Space Invaders" id="si">
-				
-				<p>Click to play the games! <br>(Some of these games are being hosted by my current employer, MVCodeClub, check them out) </p>
+				<div class="game">
+					<img src="./pics/rickandMorty.PNG" alt="Rick Runner" id="rr">
+					<p>Rick Runner</p>
+				</div>
+
+				<div class="game">
+					<img src="./pics/balloonClicker.PNG" alt="Balloon Clicker" id="bc">
+					<p>Balloon Clicker</p>
+				</div>
+
+				<div class="game">
+					<img src="./pics/brickBreaker.PNG" alt="Brick Breaker" id="bb">
+					<p>Brick Breaker</p>
+				</div>
+
+				<div class="game">
+					<img src="./pics/spaceInvaders.PNG" alt="Space Invaders" id="si">
+					<p>Space Invaders</p>
+				</div>
+
+
+				<h3>Click to play the games! <br>(Some of these games are being hosted by my current employer, MVCodeClub, check them out) </h3>
 			</div>
+			<div class="box">
+				<h2 id="cm">Contact Me</h2>
+				<form action="https://formspree.io/TRtheGreat19@gmail.com" method="POST">
+					<label>Your Name:</label>
+					<input type="text" name="name" placeholder="  Testy Bob" style="width:20%;">
+					<br>
+					<label>Your Email:</label>
+					<input type="email" name="_replyto" placeholder="  myEmail@email.com" style="width:25%;">
+					<br>
+					<label>Your Message:</label>
+					<textarea name="message" placeholder="  Hi, I have a Game Idea for you!" style="width:50%;"></textarea>
+					<br>
+					<button type="submit">Send</button>
+				</form>
+			</div>
+		</div>
+		<div class="popUp" id="RR">
+			<iframe src="http://rickandmorty.mvcode.site/" width="50%"height="50%"></iframe>
+			<p>Use the 'A' 'S' keys to move and use 'SpaceBar' or 'W' to jump.   Go Collect some Schmeckles.  If you collect enough the Background will change.  (Next level, smaller platforms)</p>
+		</div>
+		<div class="popUp" id="BC">
+			<iframe src="http://balloonclicker.mvcode.site/" width="50%"height="50%"></iframe>
+			<p>Click on the Balloons get points.  Play around with different strategies.  If you click on the same color as last click you get bonus points.  </p>
+		</div>
+		<div class="popUp" id="BB">
+			<iframe src="http://brickbreaker.mvcode.site/#" width="50%"height="50%"></iframe>
+			<p>Classic Brick Breaker game.  You can stack the power ups but only one type at a time.  </p>
 		</div>
 	</body>
 </html>

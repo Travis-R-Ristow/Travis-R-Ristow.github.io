@@ -56,4 +56,22 @@ $(document).ready(function(){
 			$("#PC").css("display", "none");
 		});
 	});
+
+	$( "#rr" ).on( "click", () => {
+		$("#RR").css("display", "block").on( "click", () => {
+			$("#RR").css("display", "none")
+		});
+	});
+
+	$( "#bc" ).on( "click", () => {
+		$("#BC").css("display", "block").on( "click", () => {
+			$("#BC").css("display", "none")
+		});
+	});
+
+	$( "#bb" ).on( "click", () => {
+		$("#BB").css("display", "block").on( "click", () => {
+			$("#BB").css("display", "none")
+		});
+	});
 });
