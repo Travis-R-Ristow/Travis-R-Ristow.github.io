@@ -1,0 +1,38 @@
+#title {
+	width: 35vw;
+	border-radius: 2vw;
+	border: black solid 0.3vw;
+	box-shadow: 0 0 10vh black;
+	display: block;
+	margin: auto;
+	margin-top: 7vh;
+}
+ .box {
+ 	vertical-align: top;
+ 	width: 40%;
+ 	display: inline-block;
+	margin-top: 7vh;
+ 	margin-right:1vw; 
+ 	margin-left: 1vw;
+ }
+
+ #me{
+ 	border-radius: 0 0 2vw 0;
+ 	/*border-top: none;*/
+ 	border-left: none;
+ 	margin-top: 0;
+ 	margin-left: 0;
+ 	margin-bottom: 0;
+ }
+
+.box h3 {
+	font-size: 2vw;
+}
+
+.box p {
+	margin: 0;
+	font-size: 1vw;
+	text-align: left;
+	text-indent: 3vw;
+	padding: 1vw;
+}
