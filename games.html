@@ -3,11 +3,29 @@
 	<head>
 		<title>Games - TRtheGreat</title>
 		<link rel="stylesheet" type="text/css" href="galleryPage.css">
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js'></script>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
 		<script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
 		<script type="text/javascript" src="gallery.js"></script>
 		<script type="text/javascript" src="rainbow.js"></script>
-
+		<!-- MADE LIB FILES -->
+			<script type="text/javascript" src="./SpaceInvaders/globalVARs.js"></script>
+			<script type="text/javascript" src="./SpaceInvaders/screenText.js"></script>
+			<script type="text/javascript" src="./SpaceInvaders/enemy.js"></script>
+			<script type="text/javascript" src="./SpaceInvaders/lazer.js"></script>
+			<script type="text/javascript" src="./SpaceInvaders/player.js"></script>
+			<script type="text/javascript" src="./SpaceInvaders/spriteSheet.js"></script>
+			<script type="text/javascript" src="./SpaceInvaders/index.js"></script>
+			<script type="text/javascript" src="./SpaceInvaders/arrPop.js"></script>
+			<script type="text/javascript" src="./SpaceInvaders/collision.js"></script>
+		<!-- Ads -->
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<script>
+			  (adsbygoogle = window.adsbygoogle || []).push({
+			    google_ad_client: "ca-pub-9234763715135594",
+			    enable_page_level_ads: true
+			  });
+			</script>
 	</head>
 	<body>
 		<div id="navBar">
@@ -71,6 +89,10 @@
 		<div class="popUp" id="BB">
 			<iframe src="http://brickbreaker.mvcode.site/" width="550px"height="525px"></iframe>
 			<p>Classic Brick Breaker game.  You can stack the power ups but only one type at a time.  </p>
+		</div>
+		<div class="popUp" id="SI">
+			<div id="spaceInvaders"></div>
+			<p>Classic Space Invaders game.  Can you get to the last level?  </p>
 		</div>
 	</body>
 </html>

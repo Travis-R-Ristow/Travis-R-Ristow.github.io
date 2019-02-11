@@ -74,4 +74,10 @@ $(document).ready(function(){
 			$("#BB").css("display", "none")
 		});
 	});
+
+	$( "#si" ).on( "click", () => {
+		$("#SI").css("display", "block").on( "click", () => {
+			$("#SI").css("display", "none")
+		});
+	});
 });

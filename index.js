@@ -2,7 +2,7 @@
 $(document).ready(function(){
 
 	$("#bg Travis").fadeTo(1000, 0.4, () => {
-		$("#fancyNav").fadeIn(4500);
+		$("#fancyNav").fadeIn(4000);
 		$("#bgShadow").fadeIn(4500);
 		$("#bg Travis").fadeTo(2000, 1);
 		$("#skills").animate({ marginTop: "-1vh"},6500, () => {
