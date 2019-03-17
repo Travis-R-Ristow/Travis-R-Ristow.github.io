@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Image Reader</title>
+		<script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js'></script>
+		<script type="text/javascript" src="jquery-input-file-text.js"></script>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script type="text/javascript" src="index.js"></script>
+	</head>
+	<body>
+		<div id="navBar">
+			<a href="../index.html"><h1>Home</h1></a>
+			<a href="../games.html"><h1>Games</h1></a>
+			<a href="../aboutMe.html"><h1>About Me</h1></a>
+		</div>
+
+		<h1 style="margin-top: 10vh;">Remove a Color from an Image!</h1>
+		<div id="game" class="game">
+			<!-- <canvas> -->
+		</div>
+		<div class="desc">
+			<h3>Click on the color that you want transparent.</h3>
+			<!-- <form> -->
+			  <input type="file" name="pic" accept="image/*" onchange="previewFile()">	<!-- previewFile() MADE IN INDEX.JS -->
+				<br>
+				<br>
+				<button id="rmvColor">Remove Color</button> <div id="clickedColor"></div>
+				<br>
+				<br>
+				<button id="saveImage">Download NEW Image</button>
+			<!-- </form> -->
+			  <img width="50%" alt="your image" id="grabImage" style="display: none;" />
+		</div>
+	</body>
+</html>

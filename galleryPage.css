@@ -85,6 +85,10 @@ body{
 		border-bottom: solid black 0.3vw;
 	}
 	.box img {
+		cursor: pointer;
+	}
+	.miniBox {
+		background-color: silver;
 		display: inline-block;
 		width: 25%;
 		margin: 2vh;
@@ -92,8 +96,22 @@ body{
 		margin-left: 1vh;
 		border: solid black 0.3vw;
 		border-radius: 1vw;
-		cursor: pointer;
+		cursor: pointer;	
+		vertical-align: top;
 	}
+	.miniBox img{
+		width: 100%;
+		vertical-align: top;
+		border-radius: 0 0 0.5vw 0.5vw;
+	}
+	.miniBox h2{
+		border-radius: 0.5vw 0.5vw 0 0;
+		font-size: 2vw;
+		-webkit-text-stroke: white;
+		margin: 0;
+	}
+
+
 	.box h3 {
 		margin:auto;
 		border-top:solid grey 0.1vw;

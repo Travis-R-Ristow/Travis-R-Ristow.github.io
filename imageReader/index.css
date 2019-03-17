@@ -1,0 +1,58 @@
+body{
+	background-color: #99ccff;	/*	BLUE	*/
+	text-align: center;
+	margin: 0;
+}
+
+#game{
+	margin-top: 0;
+	margin: 3vw;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.desc{
+	margin-top: 3vw;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#clickedColor{
+	margin: auto;
+	width: 50%;
+	background-color: green;
+}
+
+canvas {
+	border: 3px solid black;
+}
+
+#navBar {
+	background-color: silver;
+	text-align-last: justify;
+	box-shadow: 0 0 10vh black;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+	/*height: 6vh;*/
+}
+
+#navBar h1 {
+	color: white;
+	margin: auto;
+	display: inline-block;
+	margin-right: 10vw;
+	margin-left: 10vw;
+	padding-right: 2vw;
+	padding-left: 2vw;
+	/*padding-top: 1.25vh;*/
+	/*padding-bottom: 1.25vh;*/
+	font-size: 1.75vw;
+	border-top: solid silver 0.5vw;
+	border-bottom: solid silver 0.5vw;
+}
+	#navBar h1:hover {
+		border-top: solid white 0.5vw;
+		border-bottom: solid white 0.5vw;
+	}
